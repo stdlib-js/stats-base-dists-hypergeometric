@@ -24,32 +24,30 @@ limitations under the License.
 
 > Hypergeometric distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-hypergeometric
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-hypergeometric = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.hypergeometric;
-})();
-</script>
+var hypergeometric = require( '@stdlib/stats-base-dists-hypergeometric' );
 ```
 
 #### hypergeometric
@@ -126,21 +124,11 @@ var y = dist.cdf( 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var hypergeometric = require( '@stdlib/stats-base-dists-hypergeometric' );
 
 console.log( objectKeys( hypergeometric ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -220,6 +208,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-hypergeometric/main/LICENSE
 
@@ -227,27 +216,27 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/hypergeometric/ctor]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-ctor/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/ctor]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-ctor
 
-[@stdlib/stats/base/dists/hypergeometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis
 
-[@stdlib/stats/base/dists/hypergeometric/mean]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mean/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/mean]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mean
 
-[@stdlib/stats/base/dists/hypergeometric/mode]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mode/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/mode]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mode
 
-[@stdlib/stats/base/dists/hypergeometric/skewness]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-skewness/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/skewness]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-skewness
 
-[@stdlib/stats/base/dists/hypergeometric/stdev]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-stdev/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/stdev]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-stdev
 
-[@stdlib/stats/base/dists/hypergeometric/variance]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-variance/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/variance]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-variance
 
-[@stdlib/stats/base/dists/hypergeometric/cdf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/cdf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf
 
-[@stdlib/stats/base/dists/hypergeometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-logpmf/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-logpmf
 
-[@stdlib/stats/base/dists/hypergeometric/pmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-pmf/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/pmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-pmf
 
-[@stdlib/stats/base/dists/hypergeometric/quantile]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-quantile/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/quantile]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-quantile
 
 <!-- </toc-links> -->
 
