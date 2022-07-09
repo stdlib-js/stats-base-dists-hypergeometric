@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.hypergeometric;
+})();
 })();
 </script>
 ```
@@ -140,9 +142,11 @@ var y = dist.cdf( 0.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( hypergeometric ) );
 
+})();
 })();
 </script>
 </body>
@@ -234,27 +238,27 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/hypergeometric/ctor]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-ctor/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/ctor]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/mean]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mean/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/mean]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/mode]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mode/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/mode]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/skewness]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-skewness/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/skewness]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/stdev]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-stdev/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/stdev]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/variance]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-variance/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/variance]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/cdf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/cdf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-logpmf/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-logpmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/pmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-pmf/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/pmf]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-pmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric/quantile]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-quantile/tree/umd
+[@stdlib/stats/base/dists/hypergeometric/quantile]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
