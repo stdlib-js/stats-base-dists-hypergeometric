@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@deno/mod.js';
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Hypergeometric, cdf, kurtosis, logpmf, mean, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@deno/mod.js';
+import { Hypergeometric, cdf, kurtosis, logpmf, mean, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@v0.1.0-deno/mod.js';
 ```
 
 #### hypergeometric
@@ -127,7 +127,7 @@ var y = dist.cdf( 0.5 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@deno/mod.js';
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( hypergeometric ) );
 ```
