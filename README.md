@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@esm/index.mjs';
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Hypergeometric, cdf, kurtosis, logpmf, mean, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@esm/index.mjs';
+import { Hypergeometric, cdf, kurtosis, logpmf, mean, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@v0.2.0-esm/index.mjs';
 ```
 
 #### hypergeometric
@@ -132,7 +132,7 @@ var y = dist.cdf( 0.5 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@esm/index.mjs';
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric@v0.2.0-esm/index.mjs';
 
 console.log( objectKeys( hypergeometric ) );
 
