@@ -4,28 +4,35 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-07-21)
 
-<section class="packages">
+<section class="features">
 
-### Packages
+### Features
 
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Karan Anand
--   Philipp Burckhardt
+-   [`0498764`](https://github.com/stdlib-js/stdlib/commit/0498764541343a2eab6db22b6a203d76d0070717) - add C implementation for `stats/base/dists/hypergeometric/mean` [(#4193)](https://github.com/stdlib-js/stdlib/pull/4193)
+-   [`989ce7d`](https://github.com/stdlib-js/stdlib/commit/989ce7d6a5cfddc1dbcb87b7c3fb386b748ec96c) - add implementation of `stats/base/dists/hypergeometric/mode` [(#4200)](https://github.com/stdlib-js/stdlib/pull/4200)
+-   [`56d8d56`](https://github.com/stdlib-js/stdlib/commit/56d8d567d71cc93e1a12de83459be74cc91f2bb0) - add C implementation for `stats/base/dists/hypergeometric/variance` [(#4557)](https://github.com/stdlib-js/stdlib/pull/4557)
+-   [`11e8a56`](https://github.com/stdlib-js/stdlib/commit/11e8a560e234be46e49d0df96325da7b1cf36f8d) - **stats:** add C implementation for `stats/base/dists/hypergeometric/logpmf` [(#4575)](https://github.com/stdlib-js/stdlib/pull/4575)
+-   [`cfcfb61`](https://github.com/stdlib-js/stdlib/commit/cfcfb6192307cd8c27104d37e84f87cea988637d) - **stats:** add C implementation for `stats/base/dists/hypergeometric/pmf` [(#4565)](https://github.com/stdlib-js/stdlib/pull/4565)
+-   [`d847b9d`](https://github.com/stdlib-js/stdlib/commit/d847b9d41ade7bb54db00ef8d3a1a5938e4b5ffb) - **stats:** add C implementation for `stats/base/dists/hypergeometric/stdev` [(#4559)](https://github.com/stdlib-js/stdlib/pull/4559)
+-   [`61bb593`](https://github.com/stdlib-js/stdlib/commit/61bb59320efa31c8f9c942ca3bbade7828ce6165) - **stats:** add C implementation for `stats/base/dists/hypergeometric/skewness` [(#4560)](https://github.com/stdlib-js/stdlib/pull/4560)
 
 </section>
 
-<!-- /.contributors -->
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 8 issues were closed in this release:
+
+[#3661](https://github.com/stdlib-js/stdlib/issues/3661), [#3662](https://github.com/stdlib-js/stdlib/issues/3662), [#3663](https://github.com/stdlib-js/stdlib/issues/3663), [#3664](https://github.com/stdlib-js/stdlib/issues/3664), [#3666](https://github.com/stdlib-js/stdlib/issues/3666), [#3667](https://github.com/stdlib-js/stdlib/issues/3667), [#3668](https://github.com/stdlib-js/stdlib/issues/3668), [#5747](https://github.com/stdlib-js/stdlib/issues/5747)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -33,6 +40,15 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0498764`](https://github.com/stdlib-js/stdlib/commit/0498764541343a2eab6db22b6a203d76d0070717) - **feat:** add C implementation for `stats/base/dists/hypergeometric/mean` [(#4193)](https://github.com/stdlib-js/stdlib/pull/4193) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
+-   [`989ce7d`](https://github.com/stdlib-js/stdlib/commit/989ce7d6a5cfddc1dbcb87b7c3fb386b748ec96c) - **feat:** add implementation of `stats/base/dists/hypergeometric/mode` [(#4200)](https://github.com/stdlib-js/stdlib/pull/4200) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
+-   [`56d8d56`](https://github.com/stdlib-js/stdlib/commit/56d8d567d71cc93e1a12de83459be74cc91f2bb0) - **feat:** add C implementation for `stats/base/dists/hypergeometric/variance` [(#4557)](https://github.com/stdlib-js/stdlib/pull/4557) _(by Karan Anand)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
+-   [`1ea2bdf`](https://github.com/stdlib-js/stdlib/commit/1ea2bdf027c1ea53e90a823ab9a7f3404256a9e6) - **chore:** address commit comments [(#5757)](https://github.com/stdlib-js/stdlib/pull/5757) _(by Jalaj Kumar)_
+-   [`11e8a56`](https://github.com/stdlib-js/stdlib/commit/11e8a560e234be46e49d0df96325da7b1cf36f8d) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/logpmf` [(#4575)](https://github.com/stdlib-js/stdlib/pull/4575) _(by Karan Anand)_
+-   [`cfcfb61`](https://github.com/stdlib-js/stdlib/commit/cfcfb6192307cd8c27104d37e84f87cea988637d) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/pmf` [(#4565)](https://github.com/stdlib-js/stdlib/pull/4565) _(by Karan Anand, Philipp Burckhardt)_
+-   [`d847b9d`](https://github.com/stdlib-js/stdlib/commit/d847b9d41ade7bb54db00ef8d3a1a5938e4b5ffb) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/stdev` [(#4559)](https://github.com/stdlib-js/stdlib/pull/4559) _(by Karan Anand, stdlib-bot)_
+-   [`61bb593`](https://github.com/stdlib-js/stdlib/commit/61bb59320efa31c8f9c942ca3bbade7828ce6165) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/skewness` [(#4560)](https://github.com/stdlib-js/stdlib/pull/4560) _(by Karan Anand, stdlib-bot)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
 -   [`b9bddfe`](https://github.com/stdlib-js/stdlib/commit/b9bddfefbcc4f301f5a63c9de30b2c11b13a989f) - **bench:** refactor random number generation in `stats/base/dists/hypergeometric` [(#4955)](https://github.com/stdlib-js/stdlib/pull/4955) _(by Karan Anand)_
 -   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
@@ -43,6 +59,21 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Jalaj Kumar
+-   Karan Anand
+-   Manvith M
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -50,26 +81,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -85,6 +96,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -104,26 +127,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -139,6 +142,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -147,421 +162,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-hypergeometric-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-cdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/cdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-ctor-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/ctor)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-kurtosis-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-logpmf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/logpmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/logpmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-mean-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-mode-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-pmf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/pmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-quantile-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-skewness-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-stdev-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-variance-v0.1.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -574,18 +183,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -603,6 +200,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
