@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-09-08)
 
 <section class="features">
 
@@ -40,6 +40,13 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`0498764`](https://github.com/stdlib-js/stdlib/commit/0498764541343a2eab6db22b6a203d76d0070717) - **feat:** add C implementation for `stats/base/dists/hypergeometric/mean` [(#4193)](https://github.com/stdlib-js/stdlib/pull/4193) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`989ce7d`](https://github.com/stdlib-js/stdlib/commit/989ce7d6a5cfddc1dbcb87b7c3fb386b748ec96c) - **feat:** add implementation of `stats/base/dists/hypergeometric/mode` [(#4200)](https://github.com/stdlib-js/stdlib/pull/4200) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`56d8d56`](https://github.com/stdlib-js/stdlib/commit/56d8d567d71cc93e1a12de83459be74cc91f2bb0) - **feat:** add C implementation for `stats/base/dists/hypergeometric/variance` [(#4557)](https://github.com/stdlib-js/stdlib/pull/4557) _(by Karan Anand)_
