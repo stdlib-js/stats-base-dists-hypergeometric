@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-07)
+## Unreleased (2026-06-16)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`096d2fc`](https://github.com/stdlib-js/stdlib/commit/096d2fc19ccc525dbe4806689db87bb105fa7077) - **chore:** add keywords [(#12647)](https://github.com/stdlib-js/stdlib/pull/12647) _(by Philipp Burckhardt)_
 -   [`80a434f`](https://github.com/stdlib-js/stdlib/commit/80a434fd26f6bce36941002b8222714dda4ae493) - **refactor:** remove unneeded `isnan` checks [(#11693)](https://github.com/stdlib-js/stdlib/pull/11693) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`9430db6`](https://github.com/stdlib-js/stdlib/commit/9430db645b6b1d36afb35e2fe3275d9ce4c384b8) - **refactor:** reuse variance implementation for stdev in `stats/base/dists` [(#11370)](https://github.com/stdlib-js/stdlib/pull/11370) _(by Om-A-osc, Athan Reines)_
