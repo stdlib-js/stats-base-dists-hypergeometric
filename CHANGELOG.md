@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-08-02)
+
+<section class="features">
+
+### Features
+
+-   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3660](https://github.com/stdlib-js/stdlib/issues/3660)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,8 @@
 
 <details>
 
+-   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - **feat:** add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360) _(by Vishal.., Neeraj Pathak, Philipp Burckhardt)_
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`096d2fc`](https://github.com/stdlib-js/stdlib/commit/096d2fc19ccc525dbe4806689db87bb105fa7077) - **chore:** add keywords [(#12647)](https://github.com/stdlib-js/stdlib/pull/12647) _(by Philipp Burckhardt)_
 -   [`80a434f`](https://github.com/stdlib-js/stdlib/commit/80a434fd26f6bce36941002b8222714dda4ae493) - **refactor:** remove unneeded `isnan` checks [(#11693)](https://github.com/stdlib-js/stdlib/pull/11693) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
@@ -29,12 +53,14 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Neeraj Pathak
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Vishal Gaikwad
+-   Vishal..
 
 </section>
 
