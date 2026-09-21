@@ -4,25 +4,38 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-21)
 
 <section class="features">
 
 ### Features
 
+-   [`a7ff788`](https://github.com/stdlib-js/stdlib/commit/a7ff7889215794799bce26b969a8a10e661a3427) - add C implementation for `stats/base/dists/hypergeometric/quantile` [(#10904)](https://github.com/stdlib-js/stdlib/pull/10904)
+-   [`f29c023`](https://github.com/stdlib-js/stdlib/commit/f29c023be68af3f8f604fb0c1d6607159444c0b9) - add C implementation for `stats/base/dists/hypergeometric/cdf` [(#10341)](https://github.com/stdlib-js/stdlib/pull/10341)
 -   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360)
 
 </section>
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`810e5f5`](https://github.com/stdlib-js/stdlib/commit/810e5f59051741b68f46e640f7db56103283f067) - avoid integer overflow [(#14972)](https://github.com/stdlib-js/stdlib/pull/14972)
+-   [`493166d`](https://github.com/stdlib-js/stdlib/commit/493166d37b791f844029c6b72780366ef8e62259) - perform support checks before integer narrowing [(#14933)](https://github.com/stdlib-js/stdlib/pull/14933)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 3 issues were closed in this release:
 
-[#3660](https://github.com/stdlib-js/stdlib/issues/3660)
+[#3659](https://github.com/stdlib-js/stdlib/issues/3659), [#3660](https://github.com/stdlib-js/stdlib/issues/3660), [#3665](https://github.com/stdlib-js/stdlib/issues/3665)
 
 </section>
 
@@ -34,6 +47,16 @@ This release closes the following issue:
 
 <details>
 
+-   [`42edb13`](https://github.com/stdlib-js/stdlib/commit/42edb13d4cebe012e89e252550b87bd8a2777135) - **test:** migrate `stats/base/dists/hypergeometric/mean` to ULP-based assertions [(#15235)](https://github.com/stdlib-js/stdlib/pull/15235) _(by Athan Reines)_
+-   [`5d0caf9`](https://github.com/stdlib-js/stdlib/commit/5d0caf9da325c04cf62b73e830287e9cc7c7c057) - **test:** migrate `stats/base/dists/hypergeometric/logpmf` to ULP-based assertions [(#15226)](https://github.com/stdlib-js/stdlib/pull/15226) _(by Philipp Burckhardt)_
+-   [`8c544a1`](https://github.com/stdlib-js/stdlib/commit/8c544a1fe0c7548e20d9eaf82593775be07aac9e) - **test:** migrate `stats/base/dists/hypergeometric/skewness` to ULP-based assertions [(#15046)](https://github.com/stdlib-js/stdlib/pull/15046) _(by Athan Reines)_
+-   [`a701380`](https://github.com/stdlib-js/stdlib/commit/a701380d67cfd5b1dbbad266a83ca2f5f4f9541b) - **test:** migrate `stats/base/dists/hypergeometric/mode` to ULP-based assertions [(#14991)](https://github.com/stdlib-js/stdlib/pull/14991) _(by Athan Reines)_
+-   [`810e5f5`](https://github.com/stdlib-js/stdlib/commit/810e5f59051741b68f46e640f7db56103283f067) - **fix:** avoid integer overflow [(#14972)](https://github.com/stdlib-js/stdlib/pull/14972) _(by Philipp Burckhardt)_
+-   [`493166d`](https://github.com/stdlib-js/stdlib/commit/493166d37b791f844029c6b72780366ef8e62259) - **fix:** perform support checks before integer narrowing [(#14933)](https://github.com/stdlib-js/stdlib/pull/14933) _(by Philipp Burckhardt, Athan Reines)_
+-   [`a7ff788`](https://github.com/stdlib-js/stdlib/commit/a7ff7889215794799bce26b969a8a10e661a3427) - **feat:** add C implementation for `stats/base/dists/hypergeometric/quantile` [(#10904)](https://github.com/stdlib-js/stdlib/pull/10904) _(by Vishal.., stdlib-bot, Philipp Burckhardt)_
+-   [`f29c023`](https://github.com/stdlib-js/stdlib/commit/f29c023be68af3f8f604fb0c1d6607159444c0b9) - **feat:** add C implementation for `stats/base/dists/hypergeometric/cdf` [(#10341)](https://github.com/stdlib-js/stdlib/pull/10341) _(by Vishal.., Philipp Burckhardt)_
+-   [`f89afd6`](https://github.com/stdlib-js/stdlib/commit/f89afd67ba67e10043306fdb16768ad5ddb11d95) - **test:** migrate `stats/base/dists/hypergeometric/stdev` to ULP-based assertions [(#14843)](https://github.com/stdlib-js/stdlib/pull/14843) _(by Athan Reines)_
+-   [`ae08f7c`](https://github.com/stdlib-js/stdlib/commit/ae08f7cb4fe984df6e38a721649aed5ad9267e67) - **test:** migrate `stats/base/dists/hypergeometric/pmf` to ULP-based assertions [(#14091)](https://github.com/stdlib-js/stdlib/pull/14091) _(by Athan Reines)_
 -   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - **feat:** add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360) _(by Vishal.., Neeraj Pathak, Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`096d2fc`](https://github.com/stdlib-js/stdlib/commit/096d2fc19ccc525dbe4806689db87bb105fa7077) - **chore:** add keywords [(#12647)](https://github.com/stdlib-js/stdlib/pull/12647) _(by Philipp Burckhardt)_
