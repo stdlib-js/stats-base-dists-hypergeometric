@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
@@ -47,6 +47,11 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`7665af9`](https://github.com/stdlib-js/stdlib/commit/7665af97d39b47c3e23a484a3a0cd6582fc908df) - **test:** migrate `stats/base/dists/hypergeometric/cdf` to ULP-based assertions [(#15693)](https://github.com/stdlib-js/stdlib/pull/15693) _(by Athan Reines)_
+-   [`a8b5b2e`](https://github.com/stdlib-js/stdlib/commit/a8b5b2e64e530482b2d9976a4fe1d0a43f461c5d) - **test:** migrate `stats/base/dists/hypergeometric/kurtosis` to ULP-based assertions [(#15679)](https://github.com/stdlib-js/stdlib/pull/15679) _(by Athan Reines)_
+-   [`fed47c5`](https://github.com/stdlib-js/stdlib/commit/fed47c5a6a1ab89ce70e546957796748b761e6dd) - **chore:** clean-up [(#15426)](https://github.com/stdlib-js/stdlib/pull/15426) _(by Philipp Burckhardt)_
+-   [`ef08b9f`](https://github.com/stdlib-js/stdlib/commit/ef08b9f5a6f457b574aa57b11b52d07bb70f0d79) - **refactor:** align JS implementation and migrate `hypergeometric/variance` to ULP-based assertions [(#14370)](https://github.com/stdlib-js/stdlib/pull/14370) _(by Athan Reines, Philipp Burckhardt)_
 -   [`42edb13`](https://github.com/stdlib-js/stdlib/commit/42edb13d4cebe012e89e252550b87bd8a2777135) - **test:** migrate `stats/base/dists/hypergeometric/mean` to ULP-based assertions [(#15235)](https://github.com/stdlib-js/stdlib/pull/15235) _(by Athan Reines)_
 -   [`5d0caf9`](https://github.com/stdlib-js/stdlib/commit/5d0caf9da325c04cf62b73e830287e9cc7c7c057) - **test:** migrate `stats/base/dists/hypergeometric/logpmf` to ULP-based assertions [(#15226)](https://github.com/stdlib-js/stdlib/pull/15226) _(by Philipp Burckhardt)_
 -   [`8c544a1`](https://github.com/stdlib-js/stdlib/commit/8c544a1fe0c7548e20d9eaf82593775be07aac9e) - **test:** migrate `stats/base/dists/hypergeometric/skewness` to ULP-based assertions [(#15046)](https://github.com/stdlib-js/stdlib/pull/15046) _(by Athan Reines)_
